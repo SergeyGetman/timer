@@ -1,0 +1,44 @@
+body{
+    background-color: #a4a4dc;
+}
+.timer{
+    margin-left: 35%;
+    margin-top: 5%;
+    height: 550px;
+    width: 550px;
+    background: #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+.timer__item{
+    background: orange;
+    width: 490px;
+    height: 490px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-left: 560px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+h1{
+    font-size: 100px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+}
