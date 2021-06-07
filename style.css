@@ -1,5 +1,5 @@
 body{
-    background-color: #a4a4dc;
+    background: linear-gradient(#e66465, #9198e5);
 }
 .timer{
     margin-left: 35%;
@@ -13,9 +13,11 @@ body{
     justify-content: center;
     align-items: center;
     align-content: stretch;
+    border-radius: 50%;
+    background-color: aqua;
 }
 .timer__item{
-    background: orange;
+    background: #1b566f;
     width: 490px;
     height: 490px;
 
@@ -25,20 +27,27 @@ body{
     justify-content: center;
     align-items: center;
     align-content: stretch;
+    border-radius: 50%;
 }
+
 button{
     height: 50px;
-    width: 100px;
+    width: 140px;
     margin-left: 560px;
     border-radius: 10px;
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    background-color: aqua;
+    font-family: "Dialog";
+    color: #523F3CFF;
 }
 h1{
     font-size: 100px;
     margin: 10px;
-    background-color: black;
+    background-color: aqua;
     color: white;
     font-family: monospace;
+    color: #523f3c;
+
 }
